@@ -52,6 +52,27 @@ body {
   /* grid-area: img; */
 }
 
+@media screen and (max-width: 37.5rem) {
+  
+  .c-product-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: "img" "text";
+    max-width: 37rem;
+  }
+  .c-product-card__text-half {
+    background-color: var(--White);
+    
+    padding: 30px;
+    /* grid-area: writing; */
+  }
+  .c-product-card__img {
+    border-radius: 15px 15px 15px 15px;
+    width: 35rem;
+    /* grid-area: img; */
+  }
+}
+
 /** Custom About  END **/
 
 /* MODAL WINDOW */
@@ -183,6 +204,7 @@ body {
 nav.navbar.navbar-expand-lg {
 
   padding: 10px 0;
+  /* position: fixed; */
   
 }
 
@@ -196,6 +218,10 @@ nav.navbar.navbar-expand-lg {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   color: #232323;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover {
+  color:#fec913;
 }
 
 a,
