@@ -38,17 +38,18 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: "img" "text"; */
-  max-width: 37rem;
+  /* max-width: 37rem; */
 }
 .c-product-card__text-half {
   background-color: var(--White);
   
-  padding: 30px;
+  /* padding-left: 30px; */
+  
   /* grid-area: writing; */
 }
 .c-product-card__img {
   border-radius: 15px 15px 15px 15px;
-  width: 35rem;
+  width: 37rem;
   /* grid-area: img; */
 }
 
