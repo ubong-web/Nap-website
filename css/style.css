@@ -71,7 +71,7 @@ body {
   }
   .c-product-card__img {
     border-radius: 15px 15px 15px 15px;
-    width: 28rem;
+    width: 25rem;
     /* grid-area: img; */
   }
 }
