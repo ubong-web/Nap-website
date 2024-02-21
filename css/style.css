@@ -59,7 +59,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: "img" "text";
-    max-width: 37rem;
+    max-width: 30rem;
     margin-left: 3rem;
     margin-right: 3rem;
   }
